@@ -1,0 +1,17 @@
+{
+  "name": "cookie-sharp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --test-scheduled",
+    "start": "wrangler dev --test-scheduled",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "hono": "^4.5.11",
+    "typescript": "^5.5.2",
+    "wrangler": "^3.60.3"
+  }
+}
