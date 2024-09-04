@@ -111,3 +111,13 @@ mode = "smart"
 # [[vectorize]]
 # binding = "MY_INDEX"
 # index_name = "my-index"
+
+kv_namespaces = [
+	{ binding = "KV", id = "896ebe2fab0b4afdaef50e4fe5d9b5c8" }
+]
+r2_buckets = [
+	{ binding = "R2", bucket_name = "cookie-chat-r2", preview_bucket_name = "" }
+]
+d1_databases = [
+	{ binding = "D1", database_name = "cookie-chat-d1", database_id = "4d3893a9-2e7e-4e9f-b902-3fd47a73d609" }
+]
